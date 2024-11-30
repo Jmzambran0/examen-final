@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "t f";
+}
+
+#listaDiv {
+    grid-area: t;
+    margin: auto;
+}
+
+#registroDiv {
+    grid-area: f;
+    margin: auto;
+}
+
+/* ------- Tabla ------- */
+
+table {
+    border-collapse: collapse;
+}
